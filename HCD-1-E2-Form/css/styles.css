@@ -1,0 +1,63 @@
+form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+label {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  border-radius: 2px;
+  padding: 3px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+input {
+  border-radius: 1px;
+  background-color: white;
+}
+main {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  text-align: center;
+  flex-direction: column;
+  animation: mymove 15s infinite;
+}
+audio {
+  margin-top: 10px;
+  display: inline;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background: beige;
+  border-radius: 1px;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#submissions-button {
+  margin-top: 10px;
+  background-color: bisque;
+}
+#submissions-button:hover {
+  background-color: green;
+  border-radius: 2px;
+}
+@keyframes mymove {
+  from {
+    background-color: bisque;
+  }
+  to {
+    background-color: beige;
+  }
+}
