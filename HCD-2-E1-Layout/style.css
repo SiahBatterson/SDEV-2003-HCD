@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+.container > * {
+  border: 2px solid black;
+}
+
+.site-header,
+.site-footer {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+/* Learners will add the rest of their CSS below this line */
+
+nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 50px;
+  margin: 10px;
+  box-sizing: content-box;
+}
+
+.container h1,
+h2,
+p {
+  padding: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
