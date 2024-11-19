@@ -1,0 +1,46 @@
+/* Universal selector for basic setup - assumed pre-existing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for .items class - assumed pre-existing */
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Learners will add the rest of their CSS below this line */
+
+.items li {
+  font-size: 18px;
+
+  color: #562156;
+
+  background-color: rgb(147, 184, 147);
+
+  padding: 10px;
+  margin: 10px;
+
+  border: 1px solid orange;
+
+  border-radius: 8px;
+
+  list-style-type: none;
+}
+
+.items li:nth-child(even):hover {
+  background-color: rgb(114, 145, 114);
+  transition: 0.3s ease;
+}
+
+.items li:nth-child(odd):hover {
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+/* Ensure smooth transition for font size and weight - combined with Step 10 */
