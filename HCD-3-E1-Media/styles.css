@@ -71,4 +71,43 @@ nav {
   align-items: center;
 }
 
-/* Learners will add the rest of their CSS below this line */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .texts {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .images {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    grid-template-rows: auto;
+  }
+
+  .texts {
+    grid-template-columns: 1fr;
+  }
+
+  .images {
+    grid-template-columns: 1fr;
+  }
+
+  header,
+  footer {
+    font-size: 1rem;
+  }
+}
